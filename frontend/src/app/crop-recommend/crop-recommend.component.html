@@ -1,0 +1,23 @@
+<div class="p-6 max-w-xl mx-auto bg-white rounded-xl shadow-lg space-y-6 hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:scale-105">
+    <h2 class="text-2xl font-bold text-green-dark">🌾 Crop Recommendation</h2>
+  
+    <select [(ngModel)]="soilType" class="w-full p-3 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-primary">
+      <option value="" disabled selected>Select Soil Type</option>
+      <option>Black</option>
+      <option>Red</option>
+      <option>Loamy</option>
+      <option>Clay</option>
+      <option>Sandy</option>
+    </select>
+  
+    <input [(ngModel)]="city" placeholder="Enter City" class="w-full p-3 border border-green-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-primary" />
+  
+    <button (click)="submit()" class="w-full bg-green-primary text-white py-2 rounded-lg hover:bg-green-dark transition duration-200">
+      Recommend Crop
+    </button>
+  
+    <div *ngIf="result" class="mt-4 bg-gray-100 p-4 rounded-lg shadow-inner">
+      🌱 Recommended Crop: <strong>{{ result.crop }}</strong>
+    </div>
+  </div>
+  

@@ -49,3 +49,4 @@ export const routes: Routes = [
   { path: 'predictions', component: PredictionsComponent,canActivate:[authGuard] },
 
 ];
+

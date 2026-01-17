@@ -1,0 +1,21 @@
+<!-- dashboard.component.html -->
+<div class="p-8 bg-gradient-to-r from-green-100 via-green-200 to-green-300 min-h-screen">
+    <!-- Headline Section -->
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-extrabold text-green-dark leading-tight">
+        🌾 Empowering Farmers with Smart Agriculture Solutions
+      </h1>
+      <p class="text-lg text-gray-600 mt-2">
+        Get personalized crop, fertilizer, disease detection, and soil insights to optimize your farming practices.
+      </p>
+    </div>
+    
+    <!-- Content Section -->
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <app-crop-recommend></app-crop-recommend>
+      <app-fertilizer-recommend></app-fertilizer-recommend>
+      <app-disease-detect></app-disease-detect>
+      <app-soil-report></app-soil-report>
+    </div>
+  </div>
+  

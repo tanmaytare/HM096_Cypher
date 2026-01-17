@@ -95,4 +95,4 @@ export class EquipmentRentalComponent implements OnInit {
       error: (err) => console.error('Error renting equipment:', err)
     });
   }
-}   
+}
