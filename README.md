@@ -1,10 +1,10 @@
-# AgriConnect 🌾
+# KrushiSetu 🌾
 
 A full-stack agricultural platform connecting farmers, equipment renters, and laborers with AI-powered services.
 
 ## ⚡ Quick Overview
 
-**AgriConnect** is an integrated ecosystem providing:
+**KrushiSetu** is an integrated ecosystem providing:
 - 🚜 Equipment rental marketplace with availability calendar and ratings
 - 🏪 Agricultural product marketplace with Stripe payments
 - 👨‍🌾 Labor hiring platform for seasonal work
@@ -28,7 +28,7 @@ A full-stack agricultural platform connecting farmers, equipment renters, and la
 ## 📦 Project Structure
 
 ```
-AgriConnect/
+KrushiSetu/
 ├── frontend/          # Angular 18 app (port 4200)
 ├── backend/           # Express API (port 5000)
 ├── ML/               # Flask ML service (port 5001)
